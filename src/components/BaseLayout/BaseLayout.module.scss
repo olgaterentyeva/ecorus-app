@@ -34,6 +34,7 @@ nav{
   display: flex;
   flex-direction: row;
   align-items: center;
+  @include primary-text;
   &__link{
     display: flex;
     flex-direction: row;
@@ -44,6 +45,9 @@ nav{
   }
   img{
     padding-right: 8px;
+  }
+  p{
+    color: $c-grey;
   }
 }
 

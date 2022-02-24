@@ -1,12 +1,12 @@
 import {Swiper, SwiperSlide} from 'swiper/react';
 import SwiperCore, {Navigation} from 'swiper';
-import 'swiper/scss';
-import 'swiper/scss/navigation';
-import './Slider.scss';
 import {Card} from "../Card/Card";
 import serviceCondition from "../../svg-icons/serviceCondition.svg";
 import plastic from "../../svg-icons/plastic.svg";
 import masks from "../../svg-icons/masks.svg";
+import 'swiper/scss';
+import 'swiper/scss/navigation';
+import './Slider.scss';
 
 export const Slider = () => {
 
@@ -15,7 +15,7 @@ export const Slider = () => {
     return (
         <>
             <div className="slider">
-                <div className = "navigation">
+                <div className="navigation">
                     <div className="swiper-button-prev-custom">
                     </div>
                     <div className="swiper-button-next-custom">
@@ -23,9 +23,9 @@ export const Slider = () => {
                 </div>
 
                 <Swiper
-                    navigation = {{
-                        prevEl:".swiper-button-prev-custom",
-                        nextEl:".swiper-button-next-custom"
+                    navigation={{
+                        prevEl: ".swiper-button-prev-custom",
+                        nextEl: ".swiper-button-next-custom"
                     }}
                     slidesPerView={1}
                     onSlideChange={() => console.log('slide change')}
@@ -67,5 +67,4 @@ export const Slider = () => {
             </div>
         </>
     )
-        ;
 }

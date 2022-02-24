@@ -1,11 +1,11 @@
-import styles from "./Button.module.scss";
 import {FC} from "react";
+import styles from "./Button.module.scss";
 
 interface ButtonProps {
     type: any,
     onClick: any,
     buttonText?: string,
-    buttonImg?: any
+    buttonImg?: any,
     buttonColor: string
 }
 

@@ -4,7 +4,7 @@ export const Ecomarket = () => {
     return (
         <>
             <BaseLayout>
-                <h1>hello ecomarket</h1>
+                ecomarket page
             </BaseLayout>
         </>
     )
